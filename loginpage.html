@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+    
+        <!-- Navbar -->
+        <div class="container">
+            <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+                <a href="#" class="navbar-brand">
+                    <img src="frontend/images/pemprov.png" alt="Logo Nomades">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navb">
+                    <ul class="navbar-nav ml-auto mr-3">
+                        <li class="nav-item mx-md-2">
+                            <a href="index.html" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="https://bit.ly/3pO83lN" class="nav-link" target="_blank">Regulasi</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="https://bit.ly/3pRb1WG" class="nav-link" target="_blank">Kontak</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="https://bit.ly/3Rh57tO" class="nav-link" target="_blank">LPSE</a>
+                        </li>
+                    </ul>
+                  
+                </div>
+            </nav>
+        </div>
+    
+
+    <!-- form login -->
+
+        <form class="form-login">
+            <div class="container">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+          </form>
+</body>
+</html>
